@@ -1,0 +1,7 @@
+bruin: #998675
+donkerbruin: #736357
+wit: #fff
+grijs: #555555
+lichtgrijs: #8c8c8c
+
+de 2 gebruikte fonts zijn google fonts

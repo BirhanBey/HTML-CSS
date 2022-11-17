@@ -1,0 +1,37 @@
+/* drie basisstijlregels om je te helpen */
+:root {
+  font-size: 100%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* hier komt jouw css */
+
+body {
+  background-color: lightgray;
+}
+
+article {
+  background-color: gold;
+  height: 400px;
+  width: 200px;
+  z-index: 0;
+  position: absolute  ;
+
+}
+
+aside {
+  background-color: white;
+  height: 400px;
+  width: 200px;
+  z-index: 0;
+  position: relative;
+  top: -25px;
+  left: 160px;
+}

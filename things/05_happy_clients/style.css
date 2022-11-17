@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    background: #f38181;
+    height: 100px;
+    justify-content: space-evenly;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+}
+header .navbar{
+    display: flex;    
+    align-items: center;
+}
+header .navbar ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    height: auto;
+    padding-right: 0px;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+header .navbar ul li.active  a, 
+header .navbar ul li a:hover {
+    color: rgb(255, 248, 151);
+    transition: 1000ms;
+    text-decoration: underline;
+}
+.container{
+    background-image: url(image/berg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container h2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 110px;
+    margin-bottom: 24px;
+    font-family: 'Kaushan Script', cursive;
+}
+.container h1{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.container .cizgi{
+    text-align: center;
+    color: #f48282;
+    font-weight: 800;
+    padding-top: 3px;
+    font-size: 50px;
+}
+.container .boxes{
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 80px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.container .boxes .box{
+    width: 550px;
+    display: flex;
+}
+.container .boxes .box img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.container .boxes .box .text .name{
+    font-size: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    color: #636363;
+}
+.container .boxes .box .text h4{
+    color: #8c8c8c;
+    font-size: 13px;
+    font-style: italic;
+}
+.container .boxes .box .text .line{
+    padding-bottom: 25px;
+    color: #f48282;
+    font-weight: 800;
+    padding-top: 43px;
+    font-size: 50px;
+    margin-top: -70px;
+}
+.container .boxes .box .text .words{
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 2;
+    padding-right: 85px;
+    margin-bottom: 85px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px){
+    header .navbar ul{
+        gap : 5px;
+    }
+    header .logo{
+        margin-left: 0;
+    }
+    .container .boxes{
+        margin: 0 25px;
+    }
+    .container .boxes .box .text .words{
+        padding-right: 0;
+    }
+   
+
+
+    
+}

@@ -1,0 +1,324 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    font-family: 'pt_sansregular';
+}
+
+header.ust{ 
+    background: url(../images/overlay.png), url(../images/banner.jpg) ; 
+    
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header h1{
+        position: relative;
+        font-size: 18px;
+        margin-left: 30px;
+        top: 50px;
+        color: #d8d8d8;
+        text-transform: uppercase;
+        font-weight: 10;
+        letter-spacing: 0.5px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    header h1 a{
+        text-decoration: none;
+        color: #d8d8d8;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+    header h1 a:hover{
+        color: white;
+    }
+    nav ul {
+        float: right;
+        right: 30px;
+        position: relative;
+        top:30px;
+    }
+
+    nav ul li{
+        display: inline;
+        padding: 18px;
+
+       
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #d8d8d8;
+        padding: 10px;
+        transition: 0.3s;
+    }
+
+    nav ul li a:hover{
+        color:white;
+    }
+
+    header .banner{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+    }
+
+    .banner h2{
+    font-size: 40px;    
+    color: aliceblue;
+    font-weight: 700;
+    text-transform:uppercase ;
+    margin: 20px;    
+    }
+    
+    .banner p{
+        font-size: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaa;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+
+    .banner a{
+        border:1 solid black;
+        border-radius: 5px;
+        padding: 25px 35px;
+        background: #f32853;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+#kapsayıcı{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+#kapsayıcı h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+    .sol{
+        width: 400px;
+        padding: 70px;
+        float: left;
+    }
+    .sol h1{
+        font-family: 'Raleway', sans-serif;
+        color:#484848;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        line-height: 60px;
+        padding-bottom: 20px;
+    }
+    .sol p{
+        font-family: 'Raleway', sans-serif;
+        color:#aaa;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 100;
+        line-height: 35px;
+        
+
+    }
+    .sag{
+        width: 400px;
+        float: right;
+        padding: 70px;
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        font-size: 18px;
+        text-transform:inherit ;
+        letter-spacing: 1.5px;
+        font-weight: 100;
+        line-height: 20px;
+        line-height: 1.5;
+        text-align: justify;
+
+    }
+#resimler{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #d8d8d8;
+    float: left;
+
+    }
+    .resimler h2{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        top;
+
+    }
+    .resimler p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container .row {
+    display: flex;
+    flex-direction: row;
+}
+.container .row .box {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .box h1 {
+    font-size: 40px;
+    color: #484848;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+    line-height: 60px;
+}
+.container .box p {
+    font-family: 'Raleway', sans-serif;
+    color: #aaa;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-bottom:20px;
+}
+.resimler{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #f6f6f6;
+}
+.resimler h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+}
+.resimler p{
+    margin: 40px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #111111;
+}
+.rescont{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+
+    
+}
+.rescont .resim1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    border: 1px solid black;
+    background: white;
+}
+
+.rescont .resim2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    border: 1px solid black;
+    background: white;
+}
+.yonlendir{
+    display: flex;
+    justify-content: center;
+    background: #f6f6f6; 
+}
+.yonlendir ul li:nth-child(2) a {
+    background: #323037 ;
+}
+.yonlendir .sola{
+    text-decoration: none !important;
+    font-size: 20px;
+    display: block;
+    padding: 20px 50px;
+    background: #f32853;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.yonlendir .saga{
+    text-decoration: none !important;
+    font-size: 20px;
+    display: block;
+    padding: 20px 50px;
+    background: #f32853;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.bolum4{
+    width: 100%;
+    padding-top: 50px;
+}
+.bolum4 h2{
+    margin-left: 50px;
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.bolum4 h2+p{
+    font-size: 18px;
+    color:#666;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.bolum4 .bolumler{
+    width: 500px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.bolum4 .bolumler .kucukresim{
+    float:right;
+    width:138px;
+    margin:10px;
+}
+.bolum4 .bolumler .kucukresim img{
+    border:5px solid #bebebe;
+    border-radius:100%;
+    width:130px;
