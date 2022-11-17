@@ -11,6 +11,7 @@ body{
     font-size: 30px;
     color: #666d89;
     margin-bottom: 44px;
+    font-weight: 600;
 }
 .part1 h4{
     font-size: 18px;
@@ -28,8 +29,9 @@ body{
 }
 .part1 .cards .card{
     display: flex;
-    width: 400px;
-    height: 88px;    
+    width: 291px;
+    height: 88px;
+    margin-bottom: 20px;
 }
 .part1 .cards .card img{
     border: 2px solid #666da4;
@@ -44,6 +46,7 @@ body{
     color: #666da4;
     font-family: 'Lato black', sans-serif;
     margin-bottom: 24px;
+    font-weight: 600;
 }
 .part1 .cards .card .text p{
     font-family: 'Lato Light',sans-serif;
@@ -62,6 +65,7 @@ body{
     font-size: 30px;
     color: #666d89;
     margin-bottom: 44px;
+    font-weight: 600;
 }
 .part2 h4{
     color: #767e9e;

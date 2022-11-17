@@ -13,7 +13,7 @@ body{
 .part1 .navbar{
     display: flex;
     justify-content: space-around;
-    padding: 60px 380px;
+    /* padding: 60px 380px; */
     align-items: center;
 }
 .part1 .navbar .logo{
