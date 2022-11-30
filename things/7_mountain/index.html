@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Montserrat:wght@300&family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="container">
@@ -34,17 +35,31 @@
       
         
       <div class="main">
-            <div class="left">
-                <img src="./svgs/left.svg" alt="left" />
+            <div id="kontrol" class="left">
+                <a href="javascript:oncekiSlayt()"><img src="./svgs/left.svg" alt="left" /></a>
             </div>
-            <div class="middle">
-                <h3>Some slogan here</h3>
-                <h1>Our amazing tagline</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est <br> voluptates, atque porro vero laudantium possimus!</p>
-                <input type="button" value="CLICK ME" />
-            </div>
-            <div class="right">
-                <img src="./svgs/right.svg" alt="" />
+            <div id="slider">
+                <div class="middle">
+                    <h3>Some slogan here</h3>
+                    <h1>Our amazing tagline</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, dicta.<br> voluptates, atque porro vero laudantium possimus!</p>
+                    <input type="button" value="CLICK ME" />
+                </div>
+                <div class="middle">
+                    <h3>Some more slogan here</h3>
+                    <h1>Slider Test 1 2 3 !</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nemo!<br> voluptates, atque porro vero laudantium possimus!</p>
+                    <input type="button" value="CLICK ME" />
+                </div>
+                <div class="middle">
+                    <h3>Some more more slogan here</h3>
+                    <h1>Slider is Working <i class="fa-regular fa-thumbs-up"></i></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ea.<br> voluptates, atque porro vero laudantium possimus!</p>
+                    <input type="button" value="CLICK ME" />
+                </div>                
+              </div>
+            <div id="kontrol" class="right">
+                <a href="javascript:sonrakiSlayt()"><img src="./svgs/right.svg" alt="" /></a>
             </div>
       </div>
     </div>
@@ -113,5 +128,7 @@
       </div>
     </div>
 </div>
+
+<script src="/slider.js"></script>
   </body>
 </html>

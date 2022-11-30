@@ -17,6 +17,11 @@ const menu = [
         target: "_blank",
       },
       {
+        title: "XIT",
+        url: "things/08_xit/index.html",
+        target: "_blank",
+      },
+      {
         title: "Mountain",
         url: "things/7_mountain/index.html",
         target: "_blank",

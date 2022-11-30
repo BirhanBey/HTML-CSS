@@ -41,6 +41,7 @@ header .navbar ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
 .container h2{
     text-align: center;
@@ -54,13 +55,19 @@ header .navbar ul li a:hover {
     font-size: 21px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif ;
+    margin-bottom: 50px;
 }
-.container .cizgi{
-    text-align: center;
-    color: #f48282;
-    font-weight: 800;
-    padding-top: 3px;
-    font-size: 50px;
+.line{
+    position: relative;
+}
+.container .line:after{
+    content: "";
+    height: 3px;
+    width: 60px;
+    background-color: #f48282;
+    position: absolute;
+    bottom: -41px;
+    left: calc(50% - 30px);
 }
 .container .boxes{
     max-width: 1100px;
@@ -68,8 +75,9 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     padding-top: 80px;
-    margin: 0 auto;
+    margin: 0px auto ;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 .container .boxes .box{
     width: 550px;
@@ -91,8 +99,9 @@ header .navbar ul li a:hover {
     color: #8c8c8c;
     font-size: 13px;
     font-style: italic;
+    margin-bottom: 40px;
 }
-.container .boxes .box .text .line{
+.container .boxes .box .text.line{
     padding-bottom: 25px;
     color: #f48282;
     font-weight: 800;
@@ -100,13 +109,18 @@ header .navbar ul li a:hover {
     font-size: 50px;
     margin-top: -70px;
 }
+.container .boxes .box .text .line:after {
+    bottom: 3px;
+    left: 0;
+    top: 30px;
+}
 .container .boxes .box .text .words{
     color: #b0b0b0;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     padding-right: 85px;
     margin-bottom: 85px;
-    font-weight: 600;
+    font-weight: 500;
 }
 @media only screen and (max-width: 768px){
     header .navbar ul{
